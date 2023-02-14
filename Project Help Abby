@@ -1,0 +1,454 @@
+import java.util.*;
+
+ public class Start{
+  public static void main (String[]args){
+    Scanner comeco = new Scanner (System.in);
+    //variaveis do comec
+  
+    String nome, confirmacao, opcao1;
+    int raiva = 0, energia = 5; 
+    int camiseta, baixo, calcado, onibus, priAula, eA, eJ;
+    String escolhaca, escolhab, escolhac, escolhao, escolhaPriaula, escolhaeA;
+    do{
+    //variaveis do ciclo "Arrumar" / parte roupas
+   System.out.print (" ⊶─────≺⋆≻─────⊷ Bem vindo ao jogo HELP ABBY ⊶─────≺⋆≻─────⊷");
+    System.out.print("\r\n");
+    System.out.print("\r\n");
+    System.out.print ("Carregando, por favor aguarde...");
+    try {
+   Thread.sleep(2000);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+ System.out.print("\r\n");
+    System.out.print("\r\n");
+    System.out.print ("█▒▒▒▒▒▒▒▒▒ 10%");
+    try {
+   Thread.sleep(500);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+    System.out.print("\r\n");
+    System.out.print("\r\n");
+    System.out.print ("███▒▒▒▒▒▒▒ 30%");
+    try {
+   Thread.sleep(500);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+    System.out.print("\r\n");
+    System.out.print("\r\n");
+    System.out.print ("█████▒▒▒▒▒ 50%");
+      try {
+   Thread.sleep(2000);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+    System.out.print("\r\n");
+    System.out.print("\r\n");
+    System.out.print ("███████▒▒▒ 70%");
+    try {
+   Thread.sleep(500);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+    System.out.print("\r\n");
+    System.out.print("\r\n");
+    System.out.print ("█████████▒ 90%");
+    try {
+   Thread.sleep(500);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+    System.out.print("\r\n");
+    System.out.print("\r\n");
+    System.out.print ("██████████ 100%");
+    System.out.print("\r\n");
+    System.out.print("\r\n");
+  try {
+   Thread.sleep(500);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+    System.out.print ("Carregamento concluído.");
+    System.out.println("══════ஜ▲ஜ══════");
+    System.out.print("\r\n");
+    System.out.println("┏┓┏┳━━┳┓┏┓┏━━┓");
+    System.out.println("┃┗┛┃━━┫┃┃┃┃╭╮┃");
+    System.out.println("┃┏┓┃━━┫┃┫┗┫╰╯┃");
+    System.out.println("┗┛┗┻━━┻━┻━┻━━┛");
+    System.out.println("");
+    System.out.println("");
+    //inicio do jogo
+    
+    System.out.println("Oh, olá!");
+    try {
+   Thread.sleep(1000);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+    System.out.println("Eu sou a narradora, acompanharei á você e a Abby nessa aventura, me veja como uma amiga, eu narrarei os passos de Abby");
+    try {
+   Thread.sleep(1000);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+    System.out.println ("Seguinte, ela passou na faculdade dos sonhos dela, e digamos que ela não seja uma pessoa muito organizada, e eu nao tenho muito tempo pra ajudá-la... Poderia nos ajudar?");
+    opcao1 = comeco.next();
+    if(opcao1.equalsIgnoreCase("Sim")) {
+       System.out.println("Obrigada!");
+    }else{
+      System.out.println("Okay então, tchau.");
+      System.out.println("┌─┐　─┐☆\"");
+      System.out.println("│▒│ /▒/");
+      System.out.println("│▒│/▒/");
+      System.out.println("│▒ /▒/─┬─┐");
+      System.out.println("│▒│▒|▒│▒│ =]~~");
+      System.out.println("┌┴─┴─┐-┘─┘");
+      System.out.println("│▒┌──┘▒▒▒│");
+      System.out.println("└┐▒▒▒▒▒▒┌┘");
+      System.out.println("└┐▒▒▒▒┌┘");
+      System.exit(0);
+    }
+    System.out.print("\r\n");
+    System.out.println ("Desculpe, eu sou muito mal educada...Qual é o seu nome?");
+    nome = comeco.next();
+    System.out.println(nome + "? É um bom nome, deseja confirmá-lo?");
+    opcao1 = comeco.next();
+    if (opcao1.equalsIgnoreCase("Sim")) {
+      System.out.println("Okay "+ nome + " Vamos continuar com a aventura!");
+    }else{
+      System.out.println("Você tem que colocar o seu nome, de verdade, senão vou ser obrigada a te chamar de pessoa... Entao, qual é o seu nome?");
+      nome = comeco.next();
+      raiva = raiva + 1;
+    if (nome.equalsIgnoreCase("Pessoa") || nome.equalsIgnoreCase("Não")){
+      raiva = raiva + 1;
+      System.out.println("Okay pessoa, vamos continuar com a aventura!");
+       }else{
+      System.out.println("Okay " + nome + " Vamos comecar oficialmente nossa aventura!");
+    } 
+    } //fim da sequencia de nome
+      System.out.println("_________Inicio do dia: 08:30_________");
+      try {
+   Thread.sleep(500);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+      System.out.println("Z z Z z Z z Z z Z z ");
+      try {
+   Thread.sleep(1000);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+      System.out.println ("✧ » ◇ « ✧ » ✦ « ✧ » ◇ « ✧Abby se atrasou, de novo... Gostaria de acordá-la agora? ✧ » ◇ « ✧ » ✦ « ✧ » ◇ « ✧");
+      opcao1 = comeco.next();
+      if (opcao1.equalsIgnoreCase("Nao")){
+        energia = energia + 1;
+        raiva = raiva + 1;
+        System.out.println("Abby: Caramba! Me atrasei logo pro meu primeiro dia de aula, que merda...");
+        
+      }else{
+        System.out.println("Abby: Obrigada por ter me acordado! Acabei indo dormir meio tarde, mas nao posso me atrasar para o meu primeiro dia");
+        energia = energia -1;
+        raiva = raiva - 1;
+      }
+    try {
+   Thread.sleep(3000);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+      // fim da sequencia acordar
+    //Começo do ciclo arrumar 
+      System.out.println("ﾟ･✻･ﾟ･✻･ﾟﾟ･✻･ﾟ･✻･ﾟﾟ･✻･ﾟ･✻･ﾟﾟ･✻･ﾟ");
+    try {
+   Thread.sleep(500);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+       System.out.println("Preciso me arrumar bem rápido, me ajuda á escolher uma roupa?");
+    try {
+   Thread.sleep(500);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+      System.out.println("Eu não curto muito vestidos, e eu tenho 3 opções de camisetas para escolher, dá uma olhada:");
+      try {
+   Thread.sleep(500);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+       System.out.println("[1] A primeira camiseta é branca, básica mas bonita.");
+       try {
+   Thread.sleep(500);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+       System.out.println("[2] A segunda camiseta é uma preta, eu gosto dessa.");
+       try {
+   Thread.sleep(500);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+    System.out.println("[3] A terceira é bem colorida, uma tie dye clássica.");
+       try {
+   Thread.sleep(500);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+    System.out.println("E então, qual você escolhe? [escolher de acordo com o número nos colchetes]");
+    camiseta = comeco.nextInt();
+    if (camiseta == 1){
+      System.out.println("A primeira camiseta? okay!");
+      escolhaca = ("camiseta branca");
+    }
+    if (camiseta == 2){
+      System.out.println("A segunda? Boa escolha!");
+      escolhaca = ("camiseta preta");
+    }
+    if (camiseta == 3){
+      System.out.println("A terceira, meio colorida demais, mas okay");
+      escolhaca = ("camiseta Tie Dye");
+    }else{
+      escolhaca = ("camiseta branca");
+      raiva = raiva + 1;
+    }
+    
+    System.out.println("Agora a parte de baixo, do mesmo jeito");
+    System.out.println("[1] Uma saia florida");
+    System.out.println("[2] Uma calca preta");
+    System.out.println("[3] Um short jeans");
+    System.out.println("Qual a sua escolha?");
+    baixo = comeco.nextInt();
+    if (baixo == 1){
+      System.out.println("A saia, boa escolha!");
+      escolhab = ("saia florida");
+    }
+    if(baixo == 2){
+      System.out.println("A calca preta? É uma boa");
+      escolhab = ("calca preta");
+    }
+    if (baixo == 3){
+      System.out.println("O short jeans? Ele é meio 2010, mas tudo bem.");
+      escolhab = ("short jeans");
+    }else{
+      escolhab = ("saia florida");
+      raiva = raiva + 1;
+    }
+    System.out.println ("E os calcados?");
+    try {
+   Thread.sleep(500);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+    System.out.println ("[1] Um all star vermelho, meu preferido");
+       try {
+   Thread.sleep(500);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+    System.out.println ("[2] Uma sapatilha preta, fofa.");
+       try {
+   Thread.sleep(500);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+    System.out.println ("[3] Um chinelo, conforto é tudo");
+
+    try {
+   Thread.sleep(500);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+    System.out.println("E entao?");
+    calcado = comeco.nextInt();
+    if (calcado == 1){
+      System.out.println ("O all star? Eu amei!");
+      escolhac = ("all star vermelho");
+    }
+    if (calcado == 2){
+      System.out.println ("A sapatilha? Foférrima");
+      escolhac = ("sapatilha");
+    }
+    if (calcado == 3){
+      System.out.println ("O chinelo? Realmente eu gosto de conforto, mesmo que seja meio brega...");
+      escolhac = ("chinelo");
+    }else{
+      escolhac = ("um all star vermelho");
+      raiva = raiva + 1;
+    }
+    System.out.println ("Eu realmente gostei dessa combinacao de " + escolhaca + "," + escolhab + " e " + escolhac);
+
+    System.out.println("◤━━━━━ ☆. ☪ .☆ ━━━━━◥");
+       try {
+   Thread.sleep(500);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+    System.out.println ("✧ » ◇ « ✧ » ✦ « ✧ » ◇ « ✧Depois de se arrumar, Abby saiu correndo para o ponto de onibus proximo á sua casa, e teve o desprazer de ver o seu onibus que para direto na faculdade, passando diante de seus olhos✧ » ◇ « ✧ » ✦ « ✧ » ◇ « ✧");
+     try {
+   Thread.sleep(1000);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+    System.out.println ("Abby: Que merda! O próximo onibus vai passar daqui á 10 minutos, devo esperar ou tentar andar até a faculdade?");
+       try {
+   Thread.sleep(500);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+    System.out.println (" [1] Andar até a faculdade");
+      try {
+   Thread.sleep(500);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+    System.out.println (" [2] Espera o próximo");
+      try {
+   Thread.sleep(500);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+    onibus = comeco.nextInt();
+    if (onibus == 1){
+      System.out.println ("Abby: É sério? Okay, mas vai demorar muito tempo");
+      raiva = raiva + 1;
+      energia = energia - 1;
+    }
+    else if (onibus == 2){
+      System.out.println ("Abby: Eu provavelmente vou me atrasar, mas acho que tudo bem....");
+      raiva = raiva - 1;
+      energia = energia + 1;
+    }
+    if (energia < 0 || raiva > 5){
+      System.out.println("Abby: Aparentemente voce acha que isso é uma piada. Nao quero mais sua ajuda. Tchau.");
+      System.exit(0);
+    }
+    
+   }while (raiva <=5 && energia <=0);
+    do{
+      
+    
+    //PRIMEIRO WHILE
+    System.out.println ("✧ » ◇ « ✧ » ✦ « ✧ » ◇ « ✧Depois de muito tempo Abby chegou em sua faculdade, correu para a sala de aula que se encontrava vazia!✧ » ◇ « ✧ » ✦ « ✧ » ◇ « ✧");
+       try {
+   Thread.sleep(1000);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+    System.out.println ("Abby: Eu não acredito, será que eu errei a sala?");
+      try {
+   Thread.sleep(1000);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+    System.out.println ("✧ » ◇ « ✧ » ✦ « ✧ » ◇ « ✧ A garota olhou em seu celular e observou que a sua primeira aula do dia tinha sido cancelada, para seu alívio ✧ » ◇ « ✧ » ✦ « ✧ » ◇ « ✧");
+       try {
+   Thread.sleep(1000);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+    System.out.println ("Abby: Ainda bem! Já que eu tenho esse tempo da primeira aula livre, você acha que eu devo estudar um pouco e adiantar alguns tópicos, ou devo ficar de bobeira?");
+       try {
+   Thread.sleep(1000);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+    System.out.println ("[1] Estudar");
+      try {
+   Thread.sleep(500);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+    System.out.println("[2] Ficar de bobeira");
+      try {
+   Thread.sleep(500);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+    priAula = comeco.nextInt();
+    if (priAula == 1){
+      System.out.println("Estudar? É uma boa");
+      energia = energia - 1;
+      raiva = raiva - 1;
+      escolhaPriaula = ("estudar");
+    }else if(priAula ==2){
+      System.out.println ("Abby: Ficar de bobeira? Seria legal, mas estudar para esse novo semestre seria o ideal");
+      escolhaPriaula=("descansar");
+      raiva = raiva + 1;
+      energia = energia + 1;
+    
+    } else{
+      System.out.println ("Abby: Não quer escolher, okay então.");
+      raiva = raiva + 2;
+      escolhaPriaula = ("descansar");
+    }while (raiva <=5 && energia <=0);
+    
+      do{
+      System.out.println("✧ » ◇ « ✧ » ✦ « ✧ » ◇ « ✧Depois de tanto "+ escolhaPriaula + " Abby teve que ir para sua segunda aula, ao entrar na sala viu sua amiga Haru, e a mesma havia guardado um lugar para sentar ao lado dela");
+        try {
+   Thread.sleep(1000);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+        System.out.println("Sabendo que a amiga provavelmente não conseguiria conter sua empolgação sobre a nova faculdade e não deixaria Abby estudar, temos duas opções: Sentar ou não ao lado de Haru");
+        try {
+   Thread.sleep(1000);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+        System.out.println("[1] Sentar ao lado de Haru");
+        try {
+   Thread.sleep(500);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+        System.out.println("[2] Sentar em outro local");
+        try {
+   Thread.sleep(500);
+} catch (Exception e) {
+   e.printStackTrace();
+}
+        eA = comeco.nextInt();
+        if (eA == 1 ){
+          System.out.println("Abby: Eu realmente amo minha amiga, mas poderíamos conversar em outro momento...");
+          raiva = raiva +1;
+          escolhaeA = ("não prestar");
+        }else if (eA == 2){
+          System.out.println("Abby:Eu posso pedir desculpas para Haru depois, entrar nessa faculdade foi muito dificil pra não prestar atenção assim");
+          raiva = raiva -1;
+        }else{
+          System.out.println("Abby: Sério, você quer mesmo ajudar?");
+          raiva = raiva +1;
+        }
+        
+  
+      if (energia < 0 || raiva > 5){
+      System.out.println("Hmmm vejo que suas escolhas não são tão legais, vou ter que recusar sua ajuda daqui em diante. Eu me viro sozinha, tchau.");
+        System.out.println("▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄");
+        System.out.println("████▌▄▌▄▐▐▌█████");
+        System.out.println("████▌▄▌▄▐▐▌▀████");
+        System.out.println("▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀");
+      System.exit(0);
+    }else{
+        System.out.println("Abby: Eu acho que é só por hoje, agora eu irei voltar pra casa...");
+      System.out.println("Muito obrigada por me ajudar nesse dia, você foi uma companhia muito agradável! ");
+        System.out.println("⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⣀⠈⠉⠙⠿⣿⣿⣿⣿⣿⣿⣿⣿");
+        System.out.println("⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⠿⡄⠄⠉⠙⠓⢦⡀⠈⠻⣿⣿⣿⣿⣿⣿");
+        System.out.println("⣿⣿⣿⣿⣿⣿⣿⠛⠛⠉⠋⠄⣠⣤⣄⠄⠄⠂⠤⣄⠈⠳⣄⠄⢹⣿⣿⣿⣿⣿");
+        System.out.println("⣿⣿⣿⣿⣿⡟⠁⠄⣰⣶⣦⡀⠻⣿⣿⣷⣄⠄⠄⢸⡆⠄⣿⠄⠄⠈⠉⠻⣿⣿");
+        System.out.println("⣿⣿⣿⡿⠁⢠⣴⣶⣌⠹⣿⣿⣷⣍⠻⣿⣿⣶⣄⠄⠄⠄⠄⣰⣾⣶⡆⠄⣿⣿");
+        System.out.println("⣿⣿⣿⣇⠄⠈⠻⣿⣿⣧⡈⠻⣿⣿⣷⣌⠻⣿⣿⣷⡄⠄⠄⣿⣿⣿⡇⠄⣿⣿");
+        System.out.println("⣿⣿⣿⣿⠃⢀⣠⣀⠙⢿⣿⣷⣄⠻⣿⣿⣿⣾⣿⣿⣿⣷⠄⣿⣿⣿⡇⠄⣿⣿");
+        System.out.println("⣿⣿⣿⣿⠄⠸⢿⣿⣷⣌⠻⢿⣿⣦⣈⣿⣿⣿⣿⣿⢟⣡⣾⣿⣿⣿⡇⠄⣿⣿");
+        System.out.println("⣿⣿⠟⠋⠁⠄⠄⠙⢿⣿⣷⣄⢹⣿⣿⣿⣿⣿⣿⠁⣼⣿⣿⣿⣿⣿⡇⠄⣿⣿");
+        System.out.println("⣿⣿⠄⠠⡆⠄⢰⡀⠄⠙⢿⣿⣿⣿⣿⣿⣿⣿⣏⠸⣿⣿⣿⣿⣿⣿⡇⠄⣿⣿");
+        System.out.println("⣿⣿⠄⠄⢻⡀⠈⠳⣤⡄⠄⠙⢿⣿⣿⣿⣿⣿⣿⡄⢻⣿⣿⣿⣿⣿⠇⠄⣿⣿");
+        System.out.println("⣿⣿⣷⣄⠄⠑⢦⣄⣀⡀⠄⢀⠄⠙⠿⣿⣿⣿⣿⣿⣾⣿⣿⣿⣿⠏⠄⢠⣿⣿");
+        System.out.println("⣿⣿⣿⣿⣶⣄⠄⠈⠉⠁⠄⣸⣿⣄⠄⠈⠻⣿⣿⣿⣿⣿⣿⠿⠃⠄⣠⣿⣿⣿");
+        System.out.println("⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣄⡀⠄⠄⠄⠄⢀⣠⣴⣿⣿⣿⣿⣿");
+        
+    }
+      }while (raiva <=5 && energia <=0);
+ }while (raiva <=5 && energia <=0);
+ }
+ }
